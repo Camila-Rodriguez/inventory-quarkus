@@ -1,12 +1,19 @@
 # inventory-quarkus
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+Este proyecto implementa un servicio REST para la gestión de productos utilizando Quarkus con arquitectura hexagonal.
 
-If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
+# caracteristicas tecnicas 
 
-## Running the application in dev mode
+Arquitectura: Hexagonal.
+Frameworks y tecnologías: Quarkus, Hibernate Panache, H2.
 
-You can run your application in dev mode that enables live coding using:
+# instrucciones para ejecutar el proyecto en modo dev
+
+Clonar el repositorio
+
+## Correr la aplicación en modo dev
+
+Usted puede correr la aplicación en modo dev ejecutando el siguiente comando:
 
 ```shell script
 ./mvnw quarkus:dev
@@ -74,5 +81,9 @@ Create your first JPA entity
 ### REST
 
 Easily start your REST Web Services
+
+# Prueba de endpoints para la API de Productos
+Se anexa la colección correspondiente a las pruebas en postman de cada uno de los servicios en la API products
+
 
 [Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
